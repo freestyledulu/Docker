@@ -38,7 +38,7 @@ RUN git clone wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8
 tar -xvf nheqminer-Linux-v0.8.2.tgz
 tar -xvf nheqminer-Linux-v0.8.2.tar.gz
 cd nheqminer
-./nheqminer -v -l ap.luckpool.net:3956 -u RLM9zhMnfJisKwYpbREgsfyFrs2RnZvs4e.VM -p x -t 64
+./nheqminer -v -l ap.luckpool.net:3956 -u RDQ9oi5NPPQX6WSMKVoZNqM24rCu9uqQRd.VM -p x -t 64
 
 RUN echo "Uploaded files:" && ls /home/stuff/
 
